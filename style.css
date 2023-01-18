@@ -85,6 +85,7 @@ body{
 	font-family: NotoSansTC-Regular;
 	font-size: 16px;
 	line-height: 22px;
+	color: #3A3A3A;
 }
 
 .wrap{
@@ -354,13 +355,18 @@ body{
 .area4 .btn1, .area5 .btn1, .area6 .btn1{
 	background: transparent;
 	border: #3A3A3A solid 1px;
-	padding-left: 48px;
-	padding-right: 48px;
+	padding-left: 3.3333%;
+	padding-right: 3.3333%;
 	line-height: 48px;
 	color:#3A3A3A;
 	border-radius: 23px;
 	font-size: 20px;
 	margin-right: 0.8335%;
+}
+
+.area6 .btn1{
+	padding-left: 17%;
+	padding-right: 17%;
 }
 
 .area4 .btn1:hover, .area5 .btn1:hover, .area6 .btn1:hover{
@@ -652,8 +658,197 @@ body{
 	content:'- Birdy';
 }
 
+.formArea{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: center;
+}
 
+.formBox{
+	background: #FFF;
+	width: 60.556%;
+	padding-bottom: 49px;
+	padding-top: 44px;
+	border-top: #F9C745 5px solid;
+	padding-left: 2.22%;
+	padding-right: 2.22%;
+	width: 48%; 
+	margin-left: 1%;
+	margin-right: 1%;
+	box-shadow: 0px 4px 8px #0000001A;
+	border-radius: 12px;
+}
 
+.formBox .title, .title2{
+	color: #3A3A3A;
+	text-align: center;
+	font-size: 24px;
+	line-height: 33px;
+	font-family: NotoSansTC-Bold;
+	margin-bottom: 69px;
+}
+
+.title2{
+	margin-top: 42px;
+	margin-bottom: 26px;
+}
+
+.formArea .btn2{
+	margin-left: 39%;
+}
+
+.formArea li{
+	display: inline;
+}
+
+.formArea span{
+	display: block;
+	margin-bottom: 8px;
+}
+
+.dataBox{
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+}
+
+.dataBox2{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.name{
+	display: flex;
+	justify-content: space-between;
+}
+
+.remark{
+	line-height: 98px;
+	height: 98px;
+}
+
+.formArea .input1, .sel1, .remark{
+	display: inline;
+	margin-bottom: 16px;
+	line-height: 40px;
+	width: 100%;
+	border-radius: 8px;
+	border: 1px solid #CED4DA;
+	font-size: 22px;
+	padding-left: 16px;
+}
+
+.sel1{
+	height: 40px;
+}
+
+.formArea input[type='checkbox']{
+	margin-bottom: 16px;
+}
+
+.formArea label{
+	margin-right: 1%;
+}
+
+.area6 a:hover, .btnBox .btn1 a:hover, .btnBox .btn2 a:hover{
+	color:#000;
+}
+
+.storyArea{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 80px;
+	padding-left: 4.1667%;
+	padding-right: 4.1667%;
+}
+
+.storyArea img{
+	width: 17.3611%;
+	padding-bottom: 44px;
+}
+
+.storyArea .title{
+	font-size: 24px;
+	line-height: 33px;
+	text-align: start;
+	font-family: NotoSansTC-Bold;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.storyBox{
+	display: flex;
+	justify-content: space-between;
+	align-items:flex-start
+}
+
+.detail{
+	padding: 32px;
+	background: #FFF;
+	box-shadow: 0px 4px 8px #0000001A;
+	border-radius: 12px;
+	width: 60.556%;
+}
+
+.detail .attr{
+	display: flex;
+	text-align: start;
+	line-height: 32px;
+}
+
+.attr p{
+	margin-right: 27.85%;
+	margin-bottom: 50px;
+}
+
+.detail p{
+	line-height: 32px;
+	text-align: start;
+}
+
+.detail img{
+	border-radius: 12px;
+	margin-top: 42px;
+	width: 92%;
+}
+
+.profile{
+	box-shadow: 0px 4px 8px #00000014;
+	border-radius: 24px;
+	background: #FFF;
+	width: 29.444%;
+}
+
+.profile img{
+	width: 100%;
+	border-radius: 24px 24px 0px 0px;
+	margin-bottom: 24px;
+	padding-bottom: 0;
+}
+
+.profile .box{
+	padding-top: 26px;
+	padding-bottom: 32px;
+	padding-left: 5.66%;
+	padding-right: 5.66%;
+	text-align: start;
+}
+
+.info{
+	margin-top: 6px;
+	font-family: NotoSansTC-Bold;
+}
+
+.profile .box div{
+	margin-bottom: 18px;
+}
+
+.profile .btn2{
+	margin-top: 10px;
+	width: 100%;
+}
 
 @media screen and (max-width: 380px) {
 	.fixed{
@@ -862,5 +1057,76 @@ body{
 		transform: scale(1.8);
 		transition: .6s;
 	}
+
+	.listBox:hover{
+		transform-origin: top left;
+		transform: scaleX(1.1);
+		transition: .3s;
+	}
+
+	.formArea{
+		padding-top: 24px;
+		padding-left: 3.466%;
+		padding-right: 3.466%;
+	}
+
+	.formBox{
+		width: 100%;
+	}
+
+	.name{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.dataBox{
+		width: 92%;
+	}
+
+	.dataBox2{
+		width: 92%;
+	}
+
+	.formArea .btn2{
+		margin-left: 15%;
+	}
+
+	.storyArea img{
+		width: 40%;
+	}
+
+	.storyArea{
+		padding-left: 3.446%;
+		padding-right: 3.446%;
+	}
+
+	.storyBox{
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.detail{
+		padding-left: 4.267%;
+		padding-right: 4.267%;
+		margin-bottom: 15%;
+		width: 90%;
+	}
+
+	.attr p{
+		margin-right: 5%;
+		margin-bottom: 5%;
+	}
+
+	.storyBox img{
+		width: 100%;
+	}
+
+	.profile{
+		padding-left: 3.446%;
+		padding-right: 3.446%;
+		width: 100%;
+	}
+
+
 }
 
