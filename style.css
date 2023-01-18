@@ -58,27 +58,32 @@ a:hover{
 
 @font-face{
     font-family: NotoSansTC-Regular;
-    src: url('/font/NotoSansTC-Regular.otf'), url('../WebFinal/font/NotoSansTC-Regular.otf');
+    src: url('../WebFinal/font/NotoSansTC-Regular.otf');
+	/* src: url('/font/NotoSansTC-Regular.otf'); */
 }
 
 @font-face{
     font-family: NotoSansTC-Bold;
-    src: url('/font/NotoSansTC-Bold.otf'), url('../WebFinal/font/NotoSansTC-Bold.otf');
+    src: url('../WebFinal/font/NotoSansTC-Bold.otf');
+	/* src: url('/font/NotoSansTC-Bold.otf'); */
 }
 
 @font-face{
     font-family: NotoSansTC-Medium;
-    src: url('/font/NotoSansTC-Medium.otf'), url('../WebFinal/font/NotoSansTC-Medium.otf');
+    src: url('../WebFinal/font/NotoSansTC-Medium.otf');
+	/* src: url('/font/NotoSansTC-Medium.otf'); */
 }
 
 @font-face{
     font-family: Kalam-Bold;
-    src: url('/font/Kalam-Bold.ttf'), url('../WebFinal/font/Kalam-Bold.ttf');
+    src: url('../WebFinal/font/Kalam-Bold.ttf');
+	/* src: url('/font/Kalam-Bold.ttf'); */
 }
 
 @font-face{
     font-family: Kalam-Regular;
-    src: url('/font/Kalam-Regular.ttf'), url('../WebFinal/font/Kalam-Regular.ttf');
+   	src: url('../WebFinal/font/Kalam-Regular.ttf');
+	/* src: url('/font/Kalam-Regular.ttf'); */
 }
 
 body{
